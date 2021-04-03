@@ -154,7 +154,7 @@ celerybeat.pid
 *.sage.py
 
 # Environments
-# .env
+.env
 .env/
 .venv/
 env/
@@ -260,3 +260,7 @@ $RECYCLE.BIN/
 *.lnk
 
 # End of https://www.toptal.com/developers/gitignore/api/python,linux,windows,macos,sublimetext,vscode
+
+# Astronomer Airflow
+airflow_settings.yaml
+logs/
